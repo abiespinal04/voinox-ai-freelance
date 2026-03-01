@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import {
   Smartphone,
-  Globe,
+  Box,
   Server,
   Cloud,
   Sparkles,
@@ -18,7 +18,7 @@ import { heroStagger } from '@/utils/motion'
 
 const services = [
   { title: 'Mobile Engineering', description: 'React Native', to: '/services#mobile', icon: Smartphone },
-  { title: 'Web Platforms', description: 'Modern React applications', to: '/services#web', icon: Globe },
+  { title: 'Web Platforms', description: 'Modern React applications', to: '/services#web', icon: Box },
   { title: 'Backend & APIs', description: 'High-performance servers in Golang', to: '/services#backend', icon: Server },
   { title: 'Cloud Architecture', description: 'AWS infrastructure & deployment', to: '/services#cloud', icon: Cloud },
   { title: 'AI Integration', description: 'Intelligent features powered by modern AI systems', to: '/services#ai', icon: Sparkles },
@@ -54,8 +54,8 @@ export function Home() {
   return (
     <>
       <Helmet>
-        <title>Voinox AI Corp — Engineering Systems That Scale</title>
-        <meta name="description" content="Voinox AI Corp builds scalable mobile, web, backend, and AI systems. Production-grade engineering for startups and growing businesses." />
+        <title>Voinox AI Studio — Engineering Systems That Scale</title>
+        <meta name="description" content="Voinox AI Studio mobile and web development builds scalable mobile, web, backend, and AI systems. Production-grade engineering for startups and growing businesses." />
         <link rel="canonical" href="/" />
       </Helmet>
 
@@ -299,7 +299,7 @@ export function Home() {
         <div className="max-w-6xl mx-auto px-6">
           <SectionTitle
             level="h2"
-            title="About Voinox AI Corp"
+            title="About Voinox AI Studio"
             subheading="A software engineering studio focused on building scalable mobile, web, and backend systems for startups and growing businesses. Craftsmanship and technical depth at the core."
             className="[&_h2]:text-white [&_p]:text-slate-400"
           />

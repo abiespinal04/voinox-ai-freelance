@@ -18,7 +18,7 @@ export function Process() {
   return (
     <>
       <Helmet>
-        <title>Process — Voinox AI Corp</title>
+        <title>Process — Voinox AI Studio</title>
         <meta name="description" content="Our engineering process: discovery, architecture, build, deployment, and scale. Structured and transparent." />
         <link rel="canonical" href="/process" />
       </Helmet>

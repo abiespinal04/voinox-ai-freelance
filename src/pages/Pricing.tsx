@@ -56,7 +56,7 @@ export function Pricing() {
   return (
     <>
       <Helmet>
-        <title>Pricing — Voinox AI Corp</title>
+        <title>Pricing — Voinox AI Studio</title>
         <meta
           name="description"
           content="Mobile from $1,999. Web from $599. Custom and AI projects scoped to your needs. Transparent pricing for serious products."

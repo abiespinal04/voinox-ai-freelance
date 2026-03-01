@@ -12,8 +12,8 @@ export function About() {
   return (
     <>
       <Helmet>
-        <title>About — Voinox AI Corp</title>
-        <meta name="description" content="Voinox AI Corp is a software engineering studio focused on scalable mobile, web, and backend systems. Craftsmanship and technical depth." />
+        <title>About — Voinox AI Studio</title>
+        <meta name="description" content="Voinox AI Studio — mobile and web development. A software engineering studio focused on scalable mobile, web, and backend systems. Craftsmanship and technical depth." />
         <link rel="canonical" href="/about" />
       </Helmet>
 
@@ -21,7 +21,7 @@ export function About() {
         <div className="max-w-6xl mx-auto px-6">
           <SectionTitle
             level="h1"
-            title="About Voinox AI Corp"
+            title="About Voinox AI Studio mobile and web development"
             subheading="A software engineering studio focused on building scalable mobile, web, and backend systems for startups and growing businesses."
           />
           <div className="mt-16 max-w-3xl space-y-8">

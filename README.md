@@ -1,4 +1,5 @@
-# Voinox AI Corp
+# Voinox AI Studio  
+**Mobile & web development**
 
 ```bash
 npm install

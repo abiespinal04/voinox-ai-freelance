@@ -23,12 +23,19 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-20">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-12">
           <div className="max-w-sm">
-            <p className="flex items-center gap-2 text-xl font-bold tracking-tight text-white">
+            <div className="flex items-start gap-3">
               <span className="flex-shrink-0 w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center text-white">
                 <Box className="w-4 h-4" strokeWidth={2} />
               </span>
-              Voinox AI Corp
-            </p>
+              <div className="flex flex-col">
+                <span className="text-lg font-bold tracking-tight text-white leading-tight">
+                  Voinox AI Studio
+                </span>
+                <span className="text-sm text-slate-400 font-medium tracking-wide mt-0.5">
+                  Mobile & web development
+                </span>
+              </div>
+            </div>
             <p className="mt-3 text-sm text-slate-400 leading-relaxed">
               Engineering systems that scale. Mobile. Web. Backend. Cloud. AI.
             </p>
@@ -54,7 +61,7 @@ export function Footer() {
           </nav>
         </div>
         <div className="mt-16 pt-8 border-t border-slate-800 text-xs text-slate-500">
-          © {new Date().getFullYear()} Voinox AI Corp. All rights reserved.
+          © {new Date().getFullYear()} Voinox AI Studio. All rights reserved.
         </div>
       </div>
     </motion.footer>

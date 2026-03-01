@@ -26,12 +26,19 @@ export function Header() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link
           to="/"
-          className="flex items-center gap-2 text-xl md:text-2xl font-bold tracking-tight text-slate-900"
+          className="flex items-center gap-3 text-slate-900"
         >
           <span className="flex-shrink-0 w-8 h-8 rounded-lg bg-slate-900 flex items-center justify-center text-white">
             <Box className="w-4 h-4" strokeWidth={2} />
           </span>
-          Voinox AI Corp
+          <span className="flex flex-col">
+            <span className="text-lg md:text-xl font-bold tracking-tight leading-tight">
+              Voinox AI Studio
+            </span>
+            <span className="text-xs font-medium text-slate-500 tracking-wide hidden sm:block">
+              Mobile & web development
+            </span>
+          </span>
         </Link>
         <nav className="hidden md:flex items-center gap-8" aria-label="Main">
           {nav.map(({ to, label }) => (

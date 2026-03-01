@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
-import { Smartphone, Globe, Server, Cloud, Sparkles } from 'lucide-react'
+import { Smartphone, Box, Server, Cloud, Sparkles } from 'lucide-react'
 import { TextBlock } from '@/components/TextBlock'
 import { Button } from '@/components/Button'
 import { MotionSection } from '@/components/MotionSection'
@@ -8,7 +8,7 @@ import { fadeInUp } from '@/utils/motion'
 
 const services = [
   { id: 'mobile', title: 'Mobile Engineering', subtitle: 'React Native', body: 'React Native mobile applications built for performance and maintainability. We ship production apps for iOS and Android that scale with your user base.', icon: Smartphone },
-  { id: 'web', title: 'Web Platforms', subtitle: 'Modern React applications', body: 'Fast, accessible web applications with React and TypeScript. SEO-friendly, responsive, and built for growth.', icon: Globe },
+  { id: 'web', title: 'Web Platforms', subtitle: 'Modern React applications', body: 'Fast, accessible web applications with React and TypeScript. SEO-friendly, responsive, and built for growth.', icon: Box },
   { id: 'backend', title: 'Backend & APIs', subtitle: 'High-performance servers in Golang', body: 'Robust APIs and services in Golang and Node. Designed for reliability, observability, and scale.', icon: Server },
   { id: 'cloud', title: 'Cloud Architecture', subtitle: 'AWS infrastructure & deployment', body: 'Infrastructure as code, CI/CD, and deployment pipelines on AWS. Secure, scalable, and cost-conscious.', icon: Cloud },
   { id: 'ai', title: 'AI Integration', subtitle: 'Intelligent features powered by modern AI', body: 'Integration of AI and ML into your products—from APIs to custom models—with a focus on production readiness.', icon: Sparkles },
@@ -18,7 +18,7 @@ export function Services() {
   return (
     <>
       <Helmet>
-        <title>Services — Voinox AI Corp</title>
+        <title>Services — Voinox AI Studio</title>
         <meta name="description" content="Mobile, web, backend, cloud, and AI engineering services. Production-grade systems for startups and growing businesses." />
         <link rel="canonical" href="/services" />
       </Helmet>

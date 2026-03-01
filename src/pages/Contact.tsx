@@ -11,7 +11,7 @@ export function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact — Voinox AI Corp</title>
+        <title>Contact — Voinox AI Studio</title>
         <meta name="description" content="Book a call. Schedule a time to discuss your mobile, web, backend, or AI project." />
         <link rel="canonical" href="/contact" />
       </Helmet>
